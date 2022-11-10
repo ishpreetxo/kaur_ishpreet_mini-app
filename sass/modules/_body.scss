@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    margin: 0px;
+    background-color: #11215f;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.heroh2 {
+    margin: 05px;
+    color: #11215f;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    line-height: 52px;
+    font-weight: 700;
+}
