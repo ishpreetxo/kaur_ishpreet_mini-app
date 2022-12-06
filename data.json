@@ -1,0 +1,27 @@
+{
+    "mini1": {
+        "model_name": "MINI Convertible ",
+        "info": "From the outside, the new MINI Cooper Convertible shared the same front fascia with the rest of the range with the specific Cooper. The Miata matches the Mini's cuteness and handling, but seating is limited to two. For that elusive combination of fashion and fun, the Mini Convertible is hard to beat.",
+        "Top_Speed": "206km/h",
+        "model_image": "mini_convertible.svg",
+        "model_image2": "mini_convertible.svg"
+    },
+
+    "mini2": {
+        "model_name": "MINI Electronic Hardtop",
+        "info": "The Electric Hatch now comes with more standard premium exterior features. We reenergized this model down to smallest details. From new wheels to redesigned front and back grilles, and standard LED Headlights and Union Jack Tail lights to air curtains that give you a more aerodynamic drive – this electric MINI is looking fresh.",
+        "Top_Speed": "195Km/h",
+        "model_image": "mini_electric.svg",
+        "model_image2": "mini_electric.svg"
+    },
+
+    "mini3": {
+        "model_name": "MINI Clubman",
+        "info": "Bold sophistication meets the thrill of the MINI drive through updated design details that marry our heritage of quality with modern ingenuity. Available as a Cooper S (with optional ALL4 all-wheel drive) or a John Cooper Works models, meaning the MINI Clubman has plenty of power and will leave you with a smile on your face.",
+        "model_image": "car5.svg",
+        "Top_Speed": "185Km/h",
+        "model_image2": "car5.svg"
+    }
+
+
+}
