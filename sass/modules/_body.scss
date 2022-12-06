@@ -26,3 +26,42 @@ body {
     line-height: 52px;
     font-weight: 700;
 }
+
+// .mini_cars {
+//     display: grid;
+//     justify-content: center;
+//     grid-template-columns: repeat(3, 5fr);
+// }
+.mini_image {
+    width: 80%;
+    height: auto;
+}
+
+.miniNav {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center
+}
+
+.miniinfo {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.subline {
+    font-size: 30px;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+.miniNav img:hover {
+    outline: 2px solid rgb(254, 251, 251);
+    cursor: pointer;
+}

@@ -22,18 +22,45 @@
     <img class="navimg" src="images/header.svg" alt="header">
 </header>
 <!-- header ends here-->
-<section class="hero">
-    <img class="heroimage" src="images/hero_image2.jpg" alt="hero-img">
-    <h2 class="heroh2"> See What all the Fun's About</h2>
-</section>
-
 
 <body>
+    <section class="hero">
+        <img class="heroimage" src="images/hero_image2.jpg" alt="hero-img">
+        <h2 class="heroh2"> See What all the Fun's About</h2>
+    </section>
+    <!-- components section down below-->
+    <main id="app">
 
+
+
+
+        <article class="miniinfo">
+            <h2 class="minitext"> Find Your Mini</h2>
+            <h3 class="subline">Discover more about the beast by clicking on them.</h3>
+
+            <nav id="mini-nav">
+                <ul class="miniNav">
+                    <minidisplay @openlb="loadLightBox" v-for="car in carData" :car="car"></minidisplay>
+                </ul>
+            </nav>
+            <h3 class="subline">Scroll Below And Check More.</h3>
+
+        </article>
+        <Lightbox @closelb="this.showLightBox = false" v-if="showLightBox" :car=" lightboxData">
+        </Lightbox>
+    </main>
+    <!-- video body here-->
+    <video class="video1" controls muted>
+        <source src="video/mini_adv.mp4" type="video/mp4">
+      </video>
+    <!-- footer-->
+    <footer class="footer">
+        <img class="imgf" src="images/footer.svg" alt="footer">
+        </header>
 
 </body>
 <!-- script area-->
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="js/main.js" type="module"></script>
+<script src="js/main.js" type="module" defer></script>
 
 </html>
