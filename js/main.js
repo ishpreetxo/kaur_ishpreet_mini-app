@@ -8,6 +8,7 @@ import LightBox from './components/thelightboxcomponent.js';
 
     createApp({
         created() {
+            // imported the scripts from the marvel built class files.
             // ALWAYS get your remote data here
             fetch('./data.json')
                 .then(res => res.json())
